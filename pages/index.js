@@ -41,7 +41,7 @@ export default function Home() {
         </Widget>
         <Footer /> 
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/bmansur"/>
+      <GitHubCorner projectUrl="https://github.com/bmansur/real-fake-news"/>
     </QuizBackground>
   )
 }
