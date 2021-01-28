@@ -26,7 +26,6 @@ const QuestionWidget = ({
   question, questionIndex, totalQuestions, onSubmit,
 }) => {
   const questionId = `question__${questionIndex}`;
-  console.log(onSubmit);
   return (
     <Widget>
       <Widget.Header>

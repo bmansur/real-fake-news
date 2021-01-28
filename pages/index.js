@@ -33,13 +33,11 @@ export default function Home() {
               infosDoEvento.preventDefault();
 
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo a requisição');
             }}
             >
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => {
-                  console.log(infosDoEvento.target.value);
                   setName(infosDoEvento.target.value);
                 }}
                 placeholder="Preencha com seu nome"
